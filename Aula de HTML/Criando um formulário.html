@@ -1,0 +1,59 @@
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Formulário de Reserva</title>
+</head>
+<body>
+  <h1>Faça a sua reserva:</h1>
+
+  <form>
+    
+    <label for="nome">Nome:</label>
+    <input type="text" id="nome" name="nome"><br><br>
+
+  
+    <label for="endereco">Endereço:</label>
+    <input type="text" id="endereco" name="endereco"><br><br>
+
+   
+    <label for="bairro">Bairro:</label>
+    <input type="text" id="bairro" name="bairro">
+
+    <label for="cidade">Cidade:</label>
+    <input type="text" id="cidade" name="cidade"><br><br>
+
+  
+    <label for="cep">CEP:</label>
+    <input type="text" id="cep" name="cep">
+
+    <label for="estado">Estado:</label>
+    <select id="estado" name="estado">
+      <option value="bh">Belo Horizonte</option>
+      <option value="sp">São Paulo</option>
+      <option value="rj">Rio de Janeiro</option>
+      <option value="rs">Porto Alegre</option>
+    </select><br><br>
+
+    
+    <label>Preferência:</label>
+    <input type="checkbox" name="preferencia" value="campo"> Campo
+    <input type="checkbox" name="preferencia" value="montanha"> Montanha
+    <input type="checkbox" name="preferencia" value="litoral"> Litoral
+    <br><br>
+
+  
+    <label>Tipo de viagem:</label>
+    <input type="radio" name="viagem" value="negocios"> Negócios
+    <input type="radio" name="viagem" value="passeio"> Passeio
+    <br><br>
+
+  
+    <label for="sugestao">Sugestão:</label><br>
+    <textarea id="sugestao" name="sugestao" rows="5" cols="40" placeholder="Digite suas sugestões."></textarea>
+    <br><br>
+
+  
+    <input type="submit" value="Enviar">
+  </form>
+</body>
+</html>
